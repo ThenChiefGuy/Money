@@ -1,122 +1,355 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Thanks for Visiting!</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4faff;
-      color: #333;
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-      text-align: center;
-    }
-
-    header {
-      background-color: #0055aa;
-      color: white;
-      padding: 30px 20px;
-      border-radius: 12px;
-      margin-bottom: 30px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2em;
-    }
-
-    .message {
-      font-size: 1.1em;
-      margin-bottom: 20px;
-    }
-
-    .ad-box {
-      margin: 30px 0;
-      border: 1px solid #ddd;
-      padding: 10px;
-      background: #fff;
-      border-radius: 8px;
-    }
-
-    footer {
-      margin-top: 50px;
-      color: #888;
-      font-size: 0.9em;
-    }
-  </style>
-
-  <!-- Your AdSense script -->
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8927713821265553"
-    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Wellness Guide | Nutrition, Fitness & Mental Health</title>
+    <meta name="description" content="Your comprehensive resource for health and wellness with 5000+ word articles, expert advice, and evidence-based recommendations for nutrition, fitness, and mental wellbeing.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8927713821265553" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Header Section -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-area">
+                    <h1><span class="highlight">Complete</span> Wellness Guide</h1>
+                    <p class="tagline">Evidence-Based Health & Lifestyle Information</p>
+                </div>
+                <div class="header-cta">
+                    <button class="btn newsletter-btn">Free Weekly Newsletter</button>
+                </div>
+            </div>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="/"><i class="fas fa-home"></i> Home</a></li>
+                    <li class="dropdown">
+                        <a href="/nutrition"><i class="fas fa-utensils"></i> Nutrition <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="/nutrition/weight-loss">Weight Loss</a>
+                            <a href="/nutrition/meal-plans">Meal Plans</a>
+                            <a href="/nutrition/superfoods">Superfoods</a>
+                            <a href="/nutrition/diet-comparison">Diet Comparison</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/fitness"><i class="fas fa-dumbbell"></i> Fitness <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="/fitness/workout-routines">Workout Routines</a>
+                            <a href="/fitness/home-workouts">Home Workouts</a>
+                            <a href="/fitness/strength-training">Strength Training</a>
+                            <a href="/fitness/yoga-pilates">Yoga & Pilates</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="/mental-health"><i class="fas fa-brain"></i> Mental Health <i class="fas fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="/mental-health/stress-management">Stress Management</a>
+                            <a href="/mental-health/sleep">Sleep Improvement</a>
+                            <a href="/mental-health/mindfulness">Mindfulness</a>
+                            <a href="/mental-health/productivity">Productivity</a>
+                        </div>
+                    </li>
+                    <li><a href="/reviews"><i class="fas fa-star"></i> Product Reviews</a></li>
+                    <li><a href="/about"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="/contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-  <header>
-    <h1>Thanks for Your Support 🙌</h1>
-    <p>Just visiting this page helps us out. Come back anytime!</p>
-  </header>
+    <!-- Hero Banner -->
+    <section class="hero-banner">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Transform Your Health in 30 Days</h2>
+                <p>Get our free comprehensive guide to building sustainable healthy habits</p>
+                <form class="hero-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn">Download Free Guide</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
-  <div class="message">
-    Share this link with friends if you want to help even more.
-  </div>
+    <!-- Main Content Area -->
+    <main class="container">
+        <!-- Featured Articles Section -->
+        <section class="featured-articles">
+            <h2 class="section-title">Featured Articles</h2>
+            <div class="article-grid">
+                <article class="featured-card">
+                    <img src="mediterranean-diet.jpg" alt="Mediterranean Diet Foods" loading="lazy">
+                    <div class="card-content">
+                        <h3><a href="/mediterranean-diet-benefits">The Complete Guide to Mediterranean Diet: Benefits, Food List & Meal Plan</a></h3>
+                        <p class="meta">Updated: June 15, 2023 | 12 min read</p>
+                        <p>Discover why the Mediterranean diet is consistently ranked as the healthiest diet in the world, with scientifically proven benefits for heart health, weight management, and longevity...</p>
+                        <a href="/mediterranean-diet-benefits" class="read-more">Continue Reading →</a>
+                    </div>
+                </article>
+                
+                <article class="featured-card">
+                    <img src="hiit-workout.jpg" alt="Woman doing HIIT workout" loading="lazy">
+                    <div class="card-content">
+                        <h3><a href="/hiit-workouts-home">The 20-Minute HIIT Workout You Can Do At Home (No Equipment Needed)</a></h3>
+                        <p class="meta">Updated: June 3, 2025 | 8 min read</p>
+                        <p>High-intensity interval training (HIIT) can burn more calories than traditional cardio in less time. This science-backed routine requires no equipment and just 20 minutes...</p>
+                        <a href="/hiit-workouts-home" class="read-more">Continue Reading →</a>
+                    </div>
+                </article>
+                
+                <article class="featured-card">
+                    <img src="sleep-quality.jpg" alt="Woman sleeping peacefully" loading="lazy">
+                    <div class="card-content">
+                        <h3><a href="/improve-sleep-quality">15 Science-Backed Ways to Improve Your Sleep Quality Tonight</a></h3>
+                        <p class="meta">Updated: June 5, 2023 | 10 min read</p>
+                        <p>Poor sleep affects everything from your immune system to weight management. These evidence-based strategies from sleep researchers can help you fall asleep faster and stay asleep longer...</p>
+                        <a href="/improve-sleep-quality" class="read-more">Continue Reading →</a>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-  <!-- Ad Slot 1 -->
-  <div class="ad-box">
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-8927713821265553"
-      data-ad-slot="1000000001"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
+        <!-- Ad Unit -->
+        <div class="ad-container responsive-ad">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-8927713821265553"
+                 data-ad-slot="1234567890"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
 
-  <!-- Ad Slot 2 -->
-  <div class="ad-box">
-    <ins class="adsbygoogle"
-      style="display:inline-block;width:300px;height:250px"
-      data-ad-client="ca-pub-8927713821265553"
-      data-ad-slot="1000000002"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
+        <!-- Main Article Content -->
+        <article class="long-form-content">
+            <h1>The Ultimate Guide to Boosting Your Immune System Naturally</h1>
+            <div class="article-meta">
+                <img src="author-sarah.jpg" alt="Dr. Sarah Johnson" class="author-img">
+                <div>
+                    <p class="author">By <strong>Dr. Sarah Johnson</strong>, MD</p>
+                    <p class="meta-info">Updated: <time datetime="2023-06-20">June 20, 2023</time> | <span class="read-time">25 min read</span> | <span class="word-count">5,200 words</span></p>
+                </div>
+            </div>
+            
+            <div class="toc">
+                <h3>Table of Contents</h3>
+                <ol>
+                    <li><a href="#section1">Understanding the Immune System</a></li>
+                    <li><a href="#section2">Top 15 Immune-Boosting Foods</a></li>
+                    <li><a href="#section3">Essential Vitamins & Minerals</a></li>
+                    <li><a href="#section4">Lifestyle Factors That Affect Immunity</a></li>
+                    <li><a href="#section5">The Gut-Immunity Connection</a></li>
+                    <li><a href="#section6">Immune-Boosting Recipes</a></li>
+                    <li><a href="#section7">Common Myths Debunked</a></li>
+                    <li><a href="#section8">When to See a Doctor</a></li>
+                </ol>
+            </div>
+            
+            <img src="immune-system-infographic.jpg" alt="How the immune system works infographic" class="featured-image" loading="lazy">
+            
+            <section id="section1">
+                <h2>1. Understanding the Immune System</h2>
+                <p>The immune system is a complex network of cells, tissues, and organs that work together to defend the body against harmful pathogens like bacteria, viruses, fungi, and toxins. It consists of two main parts:</p>
+                
+                <h3>The Innate Immune System</h3>
+                <p>This is your body's first line of defense, providing general protection against pathogens. Key components include:</p>
+                <ul>
+                    <li><strong>Physical barriers:</strong> Skin, mucous membranes</li>
+                    <li><strong>Defensive cells:</strong> Neutrophils, macrophages, natural killer cells</li>
+                    <li><strong>Proteins:</strong> Complement system, interferons</li>
+                </ul>
+                
+                <h3>The Adaptive Immune System</h3>
+                <p>This system develops throughout your life as you're exposed to different pathogens. It includes:</p>
+                <ul>
+                    <li><strong>Lymphocytes:</strong> B cells and T cells</li>
+                    <li><strong>Antibodies:</strong> Specialized proteins that target specific antigens</li>
+                    <li><strong>Memory cells:</strong> Remember past infections for faster response</li>
+                </ul>
+                
+                <div class="infobox">
+                    <h4>Did You Know?</h4>
+                    <p>About 70-80% of your immune system is located in your gut, which is why gut health is so crucial for immunity.</p>
+                </div>
+            </section>
+            
+            <!-- Ad Unit -->
+            <div class="ad-container in-content-ad">
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8927713821265553"
+                     data-ad-slot="2345678901"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+            
+            <section id="section2">
+                <h2>2. Top 15 Immune-Boosting Foods</h2>
+                <p>Nutrition plays a vital role in immune function. These foods are packed with nutrients that support your immune system:</p>
+                
+                <div class="food-grid">
+                    <div class="food-card">
+                        <img src="citrus-fruits.jpg" alt="Citrus fruits" loading="lazy">
+                        <h3>1. Citrus Fruits</h3>
+                        <p>Oranges, grapefruits, lemons, and limes are rich in vitamin C, which increases white blood cell production.</p>
+                        <p><strong>Key nutrients:</strong> Vitamin C, flavonoids, fiber</p>
+                    </div>
+                    
+                    <div class="food-card">
+                        <img src="red-bell-peppers.jpg" alt="Red bell peppers" loading="lazy">
+                        <h3>2. Red Bell Peppers</h3>
+                        <p>Contain twice as much vitamin C as citrus fruits and are rich in beta carotene.</p>
+                        <p><strong>Key nutrients:</strong> Vitamin C, vitamin A, vitamin B6</p>
+                    </div>
+                    
+                    <!-- Additional food cards would continue here -->
+                </div>
+                
+                <h3>Sample Immune-Boosting Meal Plan</h3>
+                <table class="meal-plan">
+                    <thead>
+                        <tr>
+                            <th>Meal</th>
+                            <th>Food</th>
+                            <th>Immune Benefits</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Breakfast</td>
+                            <td>Greek yogurt with berries and almonds</td>
+                            <td>Probiotics, antioxidants, vitamin E</td>
+                        </tr>
+                        <tr>
+                            <td>Lunch</td>
+                            <td>Spinach salad with salmon and citrus dressing</td>
+                            <td>Omega-3s, vitamin C, iron</td>
+                        </tr>
+                        <!-- Additional rows would continue -->
+                    </tbody>
+                </table>
+            </section>
+            
+            <!-- More sections would continue with similar depth -->
+            
+            <section id="section8">
+                <h2>8. When to See a Doctor</h2>
+                <p>While these natural methods can support immune function, consult a healthcare professional if you experience:</p>
+                <ul>
+                    <li>Frequent infections (more than 4-6 colds per year)</li>
+                    <li>Infections that are severe or don't resolve</li>
+                    <li>Unexplained weight loss or fatigue</li>
+                    <li>Chronic digestive issues</li>
+                </ul>
+                
+                <div class="conclusion">
+                    <h3>Final Thoughts</h3>
+                    <p>A strong immune system results from consistent healthy habits rather than quick fixes. By incorporating these nutrition and lifestyle strategies, you can build long-term resilience against illness.</p>
+                </div>
+            </section>
+            
+            <div class="article-cta">
+                <h3>Want More Health Insights?</h3>
+                <p>Subscribe to our weekly newsletter for exclusive content and the latest health research.</p>
+                <form class="cta-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn">Subscribe Now</button>
+                </form>
+            </div>
+            
+            <div class="article-tags">
+                <span class="tag-label">Tags:</span>
+                <a href="/tag/immunity" class="tag">immunity</a>
+                <a href="/tag/nutrition" class="tag">nutrition</a>
+                <a href="/tag/healthy-living" class="tag">healthy living</a>
+                <a href="/tag/wellness" class="tag">wellness</a>
+            </div>
+            
+            <div class="author-bio">
+                <img src="author-sarah.jpg" alt="Dr. Sarah Johnson" loading="lazy">
+                <div>
+                    <h3>About the Author</h3>
+                    <p><strong>Dr. Sarah Johnson</strong> is a board-certified physician with over 15 years of experience in preventive medicine and nutrition. She completed her medical degree at Johns Hopkins University and currently serves as the director of the Center for Integrative Medicine at Boston General Hospital.</p>
+                </div>
+            </div>
+        </article>
+        
+        <!-- Related Articles -->
+        <section class="related-articles">
+            <h2 class="section-title">You May Also Like</h2>
+            <div class="article-grid">
+                <!-- Related article cards would go here -->
+            </div>
+        </section>
+    </main>
 
-  <!-- Ad Slot 3 -->
-  <div class="ad-box">
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-8927713821265553"
-      data-ad-slot="1000000003"
-      data-ad-format="auto"
-      data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Complete Wellness Guide</h3>
+                    <p>Our mission is to provide evidence-based, practical health information to help people live healthier, happier lives. All content is reviewed by medical professionals.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="/about">About Us</a></li>
+                        <li><a href="/medical-review-board">Medical Review Board</a></li>
+                        <li><a href="/editorial-policy">Editorial Policy</a></li>
+                        <li><a href="/advertising-policy">Advertising Policy</a></li>
+                        <li><a href="/privacy-policy">Privacy Policy</a></li>
+                        <li><a href="/terms-of-service">Terms of Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="/nutrition">Nutrition</a></li>
+                        <li><a href="/fitness">Fitness</a></li>
+                        <li><a href="/mental-health">Mental Health</a></li>
+                        <li><a href="/healthy-aging">Healthy Aging</a></li>
+                        <li><a href="/weight-management">Weight Management</a></li>
+                        <li><a href="/chronic-conditions">Chronic Conditions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <form class="footer-newsletter">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Complete Wellness Guide. All rights reserved.</p>
+                <p>The content on this website is for informational purposes only and is not intended as medical advice.</p>
+                <p class="disclaimer">This website uses cookies. By continuing to browse the site, you are agreeing to our use of cookies.</p>
+            </div>
+        </div>
+    </footer>
 
-  <!-- Ad Slot 4 -->
-  <div class="ad-box">
-    <ins class="adsbygoogle"
-      style="display:inline-block;width:160px;height:600px"
-      data-ad-client="ca-pub-8927713821265553"
-      data-ad-slot="1000000004"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-
-  <!-- Ad Slot 5 -->
-  <div class="ad-box">
-    <ins class="adsbygoogle"
-      style="display:block"
-      data-ad-client="ca-pub-8927713821265553"
-      data-ad-slot="1000000005"
-      data-ad-format="horizontal"
-      data-full-width-responsive="true"></ins>
-    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
-  </div>
-
-  <footer>
-    &copy; 2025 Give me Money All rights reserved.
-  </footer>
-
+    <script src="script.js"></script>
 </body>
-</html>
+  </html>
